@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+
+}
+header{
+    background: #007acc;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+nav{
+    background: #333;
+    text-align: center;
+}
+nav a{
+    color: white;
+    padding: 12px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
+main{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+h2{
+    border-bottom:2px solid #007acc;
+    padding-bottom: 5px;
+}
+.skills {
+    list-style: none;
+    padding: #000;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.skils li{
+    background: #f0f4f8;
+    padding: 8px 16px;
+    border-radius:4px;
+}
+a{
+    color: #007acc;
+}
+footer{
+    background: #007acc;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+@media(max-width:600px){
+    nav a{
+        display: block;
+        padding: 10px;
+    }
+    .skils{
+        flex-direction: column;
+        align-items: flex-start;
+}
+}
